@@ -1,5 +1,5 @@
 {
-    "name": "nelexa/zip",
+    "name": "denrad/zip",
     "type": "library",
     "description": "PhpZip is a php-library for extended work with ZIP-archives. Open, create, update, delete, extract and get info tool. Supports appending to existing ZIP files, WinZip AES encryption, Traditional PKWARE Encryption, ZipAlign tool, BZIP2 compression, external file attributes and ZIP64 extensions. Alternative ZipArchive. It does not require php-zip extension.",
     "keywords": [
@@ -24,7 +24,6 @@
         "php": "^5.5.9 || ^7.0",
         "ext-zlib": "*",
         "psr/http-message": "^1.0",
-        "paragonie/random_compat": "*",
         "symfony/finder": "^3.0|^4.0|^5.0"
     },
     "require-dev": {
@@ -34,7 +33,8 @@
         "ext-xml": "*",
         "guzzlehttp/psr7": "^1.6",
         "phpunit/phpunit": "^4.8|^5.7",
-        "symfony/var-dumper": "^3.0|^4.0|^5.0"
+        "symfony/var-dumper": "^3.0|^4.0|^5.0",
+        "paragonie/random_compat": "*"
     },
     "autoload": {
         "psr-4": {
